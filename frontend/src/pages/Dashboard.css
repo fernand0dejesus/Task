@@ -1,0 +1,34 @@
+.dashboard-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, #f0f4f8 0%, #d9e7fa 100%);
+  }
+  
+  .dashboard-card {
+    background: #fff;
+    padding: 2.5rem 2rem;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(60, 72, 88, 0.12);
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+  }
+  
+  .dashboard-title {
+    font-size: 2rem;
+    color: #2a4365;
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+  }
+  
+  .dashboard-user {
+    font-size: 1.15rem;
+    color: #4a5568;
+  }
+  
+  .dashboard-user span {
+    font-weight: 600;
+    color: #3182ce;
+  }
